@@ -6,7 +6,7 @@ import { TweetFeed } from "@/components/tweet/TweetFeed";
 
 const Index = () => {
   return (
-    <MainLayout>
+    <MainLayout showLoginButton={true}>
       <div className="border-b border-border p-4 sticky top-0 bg-background/80 backdrop-blur-sm z-10">
         <h1 className="text-xl font-bold">Home</h1>
       </div>
